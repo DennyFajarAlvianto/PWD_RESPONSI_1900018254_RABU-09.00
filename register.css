@@ -1,0 +1,89 @@
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	background-color: #6495ED;
+	color: #fff;
+	background-size: cover;
+}
+.register
+{
+	background: rgba(0,0,0,0.7);
+	padding: 40px;
+	width: 350px;
+	height: 400px;
+	margin-left: 180px;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+form
+{
+	width: 340px;
+	text-align: center;
+	border-radius: 5px;
+
+}
+input[type=text]
+{
+	border-radius: 15px;
+	width: 250px;
+	text-align: center;
+	font-family: 'Play', sans-serif;
+	font-size: 14px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	color: black;
+}
+input[type=password]
+{
+	border-radius: 15px;
+	width: 250px;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+	font-family: 'Play', sans-serif;
+	font-size: 14px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	color: black;
+}
+input[type=submit]
+{
+	border: none;
+	width: 100px;
+	background: white;
+	color: #000;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 15px;
+	cursor: pointer;
+	text-align: center;
+}
+input[type=submit]:hover
+{
+	color: #fff;
+	background-color: black;
+}
+h2
+{
+	color: #fff;
+	text-align: center;
+}
+p
+{
+	text-align: left;
+	font-size: 14px;
+	color: white;
+}
+::placeholder{
+	color: black;
+	opacity: 3;
+}
+a{
+	color: yellow;
+	text-decoration: blink;
+}
+a:hover
+{
+	color: skyblue;
+}
